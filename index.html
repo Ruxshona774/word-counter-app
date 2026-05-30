@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Counter</title>
+</head>
+<body>
+
+<h1>Word Counter Application</h1>
+
+<form method="POST">
+    <textarea name="text" rows="10" cols="50"></textarea>
+    <br><br>
+    <button type="submit">Count</button>
+</form>
+
+<h2>Results</h2>
+
+<p>Words: {{ word_count }}</p>
+<p>Characters: {{ char_count }}</p>
+
+</body>
+</html>
